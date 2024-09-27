@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -55,8 +57,151 @@
     margin-right: 0px;
 }
 
-.nav-wrapper ul li:hover{
+.nav-wrapper ul li:hover {
     cursor: pointer;
-    color:blue;
+    color: blue;
 }
+
 /* header outer */
+
+/* slider outer */
+.slider-container {
+    height: 700px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.slider-inner {
+
+    /* border: 1px solid red; */
+    flex: 1;
+
+
+}
+
+.left-slider {
+    display: flex;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-photo/girls-having-fun-shopping-center_1270664-9093.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.left-side-content-wrapper {
+    /* border: 1px solid red; */
+    padding: 20px;
+    z-index: 2;
+}
+
+.left-side-content-wrapper h1 {
+    font-size: 45px;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.left-side-content-wrapper h4 {
+    color: aliceblue;
+}
+
+.order-now {
+    background: none;
+    border: 1px solid white;
+    margin-top: 50px;
+    padding: 9px 16px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.left-side-content-wrapper button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 165, 166,0.5);
+    position: absolute;
+
+}
+
+.right-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-right-wrapper {
+    /* border: 1px solid red; */
+    flex: 1;
+    display: flex;
+}
+
+.slider-right-slot {
+    flex: 1;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    color:rgb(14, 14, 1);
+    position: absolute;
+}
+.right-slot {
+    background-image: url(https://img.freepik.com/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera-with-shopping-bag-blue-pastel-background-copy-space_1258-837.jpg?t=st=1727424046~exp=1727427646~hmac=8dc3166e401a0c180fd6e86866ec73fe6d6d0a598b1954552ec8cf08f859faab&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    color: rgb(19, 19, 19);
+    margin:0 30px 30px 30px;
+}
+
+
+.left-slot {
+    background-image: url(https://img.freepik.com/premium-photo/3d-men-holding-shopping-bags-walking-shopping-mall-black-friday-concept_943126-3936.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px 30px 30px;
+}
+
+
+.data-wrapper {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(44, 62, 80, 0.9);
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    
+    display: none;
+}
+
+.slider-right-slot:hover .data-wrapper {
+    display: flex;
+    z-index: 2;
+}
+
+.top-slot {
+    background-image: url(https://img.freepik.com/free-photo/portrait-smiling-girl-holding-shopping-bags_23-2147920357.jpg?ga=GA1.1.2093623990.1727420975&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px 0 30px;
+}
+
+.bottom-slot {
+    background-image: url(https://img.freepik.com/premium-photo/luxurious-3d-fashion-accessories-sleek-flat-surface_1313031-300.jpg?ga=GA1.1.2093623990.1727420975&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px 0 30px;
+}
+
+/* slider outer */
