@@ -86,7 +86,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
+
 }
 
 .left-side-content-wrapper {
@@ -124,7 +124,7 @@
 .shadow {
     width: 100%;
     height: 100%;
-    background-color: rgba(149, 165, 166,0.5);
+    background-color: rgba(149, 165, 166, 0.5);
     position: absolute;
 
 }
@@ -149,17 +149,18 @@
     align-items: center;
 }
 
-.main{
-    color:rgb(14, 14, 1);
+.main {
+    color: rgb(14, 14, 1);
     position: absolute;
 }
+
 .right-slot {
     background-image: url(https://img.freepik.com/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera-with-shopping-bag-blue-pastel-background-copy-space_1258-837.jpg?t=st=1727424046~exp=1727427646~hmac=8dc3166e401a0c180fd6e86866ec73fe6d6d0a598b1954552ec8cf08f859faab&w=1060);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
     color: rgb(19, 19, 19);
-    margin:0 30px 30px 30px;
+    margin: 0 30px 30px 30px;
 }
 
 
@@ -167,7 +168,7 @@
     background-image: url(https://img.freepik.com/premium-photo/3d-men-holding-shopping-bags-walking-shopping-mall-black-friday-concept_943126-3936.jpg?w=360);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0 30px 30px 30px;
+    margin: 0 30px 30px 30px;
 }
 
 
@@ -181,7 +182,7 @@
     flex-direction: column;
     color: aliceblue;
     position: relative;
-    
+
     display: none;
 }
 
@@ -194,14 +195,242 @@
     background-image: url(https://img.freepik.com/free-photo/portrait-smiling-girl-holding-shopping-bags_23-2147920357.jpg?ga=GA1.1.2093623990.1727420975&semt=ais_hybrid);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0 30px 0 30px;
+    margin: 0 30px 0 30px;
 }
 
 .bottom-slot {
     background-image: url(https://img.freepik.com/premium-photo/luxurious-3d-fashion-accessories-sleek-flat-surface_1313031-300.jpg?ga=GA1.1.2093623990.1727420975&semt=ais_hybrid);
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0 30px 0 30px;
+    margin: 0 30px 0 30px;
 }
 
 /* slider outer */
+
+/* product outer */
+
+.product-containers{
+    height: 650px;
+    width:100%;
+    margin-top:100px;
+}
+
+.product-detail{
+    margin-left:100px;
+
+}
+.product-container {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-inner {
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    /* flex:1; */
+    width: 32%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-content1 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/stylish-handsome-boy-images-your-projects_1199394-84101.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content1:hover .hidden-items-context {
+    bottom: 0;
+}
+
+.product-detail-content {
+    /* border: 1px solid red; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-content2 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/free-photo/portrait-handsome-bad-boy_329181-1485.jpg?t=st=1727532157~exp=1727535757~hmac=58fcb4cb08b557bd9ed514c58135169d6c685569c4abfde0e53439f936ec2d9d&w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image-content2:hover .hidden-items-context {
+    bottom: 0;
+}
+
+.product-image-content3 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/young-buy-casual-clothes-standing-with-serious-concentrated-face-crossed-arms-against-purple-background-neon-light-negative-situation_1028938-511178.jpg?w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.product-image-content3:hover .hidden-items-context {
+    bottom: 0;
+}
+
+.name-rate-container,
+.price-container {
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.hidden-items-context {
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -60px;
+}
+
+.hidden-items-inner {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hidden-items {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.product-image-content4 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/woman-forest-with-forest-ferns_1308172-599285.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content4:hover .hidden-items-context {
+    bottom: 0;
+}
+.product-image-content5 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/free-photo/elegant-young-lady-long-burgundy-dress-with-sleeves-waist-band-holding-hand-breasts-blonde-hairstyle-natural-nude-makeup-walking-down-street-near-building_343629-63.jpg?t=st=1727595288~exp=1727598888~hmac=9f46316e10fbf1b66e127615060b10995a3beba5bbf887734555cad3cdbd7cce&w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content5:hover .hidden-items-context {
+    bottom: 0;
+}
+.product-image-content6 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/high-fashion-model-elegant-model-posing-fashionable-outfit_1288125-35389.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content6:hover .hidden-items-context {
+    bottom: 0;
+}
+
+.product-image-content7 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/free-psd/cute-happy-girl-portrait_23-2150116418.jpg?t=st=1727595573~exp=1727599173~hmac=3aa0e11c385323758053e423e0b16e25d363c947b3b9d1636627a944ee1d23b2&w=360);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content7:hover .hidden-items-context {
+    bottom: 0;
+}
+
+.product-image-content8 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/fashion-accessory-express-positive-emotions-childhood-happiness-summer-party-look_545934-13015.jpg?w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content8:hover .hidden-items-context {
+    bottom: 0;
+}
+
+.product-image-content9 {
+    /* border: 1px solid red; */
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/girl-striped-swimsuit-swimming-cap-puts-swimming-goggles-yellow-studio-background_383647-782.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*we need add hidden-items into image*/
+    overflow: hidden;
+    /*display overflow when click the image */
+}
+
+.product-image-content9:hover .hidden-items-context {
+    bottom: 0;
+}
+
+/* product outer */
