@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
@@ -209,16 +211,17 @@
 
 /* product outer */
 
-.product-containers{
+.product-containers {
     height: 650px;
-    width:100%;
-    margin-top:100px;
+    width: 100%;
+    margin-top: 100px;
 }
 
-.product-detail{
-    margin-left:100px;
+.product-detail {
+    margin-left: 100px;
 
 }
+
 .product-container {
     width: 100%;
     height: 600px;
@@ -339,6 +342,7 @@
     cursor: pointer;
     position: relative;
 }
+
 .product-image-content4 {
     /* border: 1px solid red; */
     flex: 1;
@@ -354,6 +358,7 @@
 .product-image-content4:hover .hidden-items-context {
     bottom: 0;
 }
+
 .product-image-content5 {
     /* border: 1px solid red; */
     flex: 1;
@@ -369,6 +374,7 @@
 .product-image-content5:hover .hidden-items-context {
     bottom: 0;
 }
+
 .product-image-content6 {
     /* border: 1px solid red; */
     flex: 1;
@@ -434,3 +440,115 @@
 }
 
 /* product outer */
+
+/* About Outer */
+.about-container {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-inner {
+    width: 70%;
+    height: auto;
+    /* border: 1px solid red; */
+    min-height: 500px;
+    display: flex;
+    ;
+}
+
+.about {
+    /* border: 1px solid red; */
+    flex: 1;
+}
+
+.left-side-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.left-side-about h1 {
+    margin-bottom: 25px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.left-side-about p {
+    margin-bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5px;
+    font-style: normal;
+}
+
+.left-side-about button {
+    padding: 8px 15px;
+    background: none;
+    border: 1px solid black;
+}
+
+.left-side-about button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+.right-side-about {
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid red; */
+
+}
+
+.right-about-top {
+    flex: 1;
+    /* border:1px solid red; */
+    display: flex;
+
+}
+
+.right-about-bottom {
+    flex: 1;
+    /* border:1px solid red; */
+    display: flex;
+}
+
+.top-right {
+    /* border:1px solid red; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(139, 136, 136);
+    margin: 20px;
+}
+
+.top-left {
+    background-image: url(https://img.freepik.com/premium-photo/black-bag-with-cross-it-is-bottle-eyeliner_853677-198141.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border:1px solid red; */
+    flex: 1;
+    margin: 20px;
+}
+
+.top-left1 {
+    flex: 1;
+    background-image: url(https://img.freepik.com/free-photo/young-beautiful-girl-holding-colorful-bags-gray-background_176420-5532.jpg?t=st=1727600123~exp=1727603723~hmac=c85aebfdf28b05527ef64cf9f2952bad416fefa9a39f1b65e8e25abc84172127&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+/* About Outer */
