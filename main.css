@@ -5,6 +5,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 /* header outer */
@@ -552,3 +553,117 @@
 }
 
 /* About Outer */
+
+/* Social media */
+.social-media-container {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    /* padding: 50px 50px; */
+    margin-top:100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-inner {
+    /* border: 1px solid red; */
+    width: 75%;
+    height: auto;
+}
+
+.social-slider {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    display: flex;
+}
+
+.social-element1 {
+    flex: 1;
+    /* border: 1px solid red; */
+    background-image: url(https://img.freepik.com/free-photo/portrait-excited-beautiful-girl-wearing-dress-sunglasses-holding-shopping-bags-isolated-blue-wall_231208-549.jpg?t=st=1727603683~exp=1727607283~hmac=4673e1fbd0d59080fa0942625259fbab5c8e8657bc28854eb09f81f5bb009858&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.social-element2 {
+    flex: 1;
+    /* border: 1px solid red; */
+    background-image: url(https://img.freepik.com/free-photo/model-career-kit-still-life_23-2150229757.jpg?t=st=1727603755~exp=1727607355~hmac=f1d2750c86bb173a29a1fbbc3742a1dc4053eefef93a93f085ea967c765c4d52&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.social-element3 {
+    flex: 1;
+    /* border: 1px solid red; */
+    background-image: url(https://img.freepik.com/free-photo/pretty-happy-ecxited-teenage-girl-with-color-shopping-bags_231208-5343.jpg?t=st=1727603706~exp=1727607306~hmac=3ca5ab73b86db1bce9225e93e0689c95cd428cbb5584257d123571b24e0760e9&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.social-element4 {
+    flex: 1;
+    /* border: 1px solid red; */
+    background-image: url(https://img.freepik.com/free-photo/laptop-skincare-supplies_23-2147711561.jpg?t=st=1727603777~exp=1727607377~hmac=35662a1bb1bfcbb8b19e052afbecbd8420a4b349dd595f472ba951663bfa0b7e&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.social-element5 {
+    flex: 1;
+    /* border: 1px solid red; */
+    background-image: url(https://img.freepik.com/free-photo/shopping-woman-smiling-holding-small-shopping-bags_231208-1942.jpg?t=st=1727603725~exp=1727607325~hmac=0d1f5d92895e8c35552069a71685ea66abb3f64970eff01098899b1c4c0c84f5&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.social-element6 {
+    flex: 1;
+    /* border: 1px solid red; */
+    background-image: url(https://img.freepik.com/premium-photo/dark-composition-luxury-womens-accessories-white-background-professional-8k-detailed-photo_1101825-79377.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.social-shadow {
+    background-color: rgba(44, 62, 80, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.social-element1:hover .social-shadow {
+    display: block;
+}
+
+.social-element2:hover .social-shadow {
+    display: block;
+}
+
+.social-element3:hover .social-shadow {
+    display: block;
+}
+
+.social-element4:hover .social-shadow {
+    display: block;
+}
+
+.social-element5:hover .social-shadow {
+    display: block;
+}
+
+.social-element6:hover .social-shadow {
+    display: block;
+}
+
+/* Social media */
